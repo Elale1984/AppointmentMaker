@@ -22,5 +22,7 @@ namespace AppointmentMaker.Controllers
             appointments.Add(appointment);
             return View("Details", appointment); 
         }
+
+
     }
 }
